@@ -243,8 +243,9 @@ const CreateFinance =({handleCreate, handleClose})=>
                 {...register("Status")}
               >
                 <MenuItem value="Complete">Complete</MenuItem>
-                <MenuItem value="Active">Active</MenuItem>
                 <MenuItem value="Incomplete">Incomplete</MenuItem>
+                <MenuItem value="Active">Pending</MenuItem>
+
               </Select>
               <FormHelperText>{errors.Status?.message}</FormHelperText>
             </FormControl>

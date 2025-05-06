@@ -32,7 +32,7 @@ const Search = ({ searchTerm, setSearchTerm, onAddClick, buttonText }) => {
         className="search"
       />
        <Box className="buttonContainer">
-      <Button variant="contained" color="primary" className="primary_button"  padding="10px" marginLeft="0px" startIcon={<AddIcon />} onClick={onAddClick}>
+      <Button variant="contained" color="primary" className="primary_button"  padding="10px" marginLeft="0px" startIcon={<AddIcon/>} onClick={onAddClick}>
        {buttonText}
       </Button>
       </Box>
